@@ -13,3 +13,8 @@ Ship::Ship(int id, unsigned int speed, unsigned int maxCrew)
 {
 
 }
+
+void Ship::setName(const std::string& name)
+{
+    name_ = name;
+}
