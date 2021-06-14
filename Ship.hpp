@@ -7,9 +7,9 @@ class Ship
 {
     int id_ = -1;
     std::string name_ = "";
-    unsigned int speed_ = 0;
-    unsigned int maxCrew_ = 0;
-    unsigned int capacity_ = 0;
+    size_t speed_ = 0;
+    size_t maxCrew_ = 0;
+    size_t capacity_ = 0;
 
 public:
     Ship::Ship();
